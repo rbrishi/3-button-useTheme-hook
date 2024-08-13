@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { ThemeProvider, ThemeContext } from './ThemeProvider';
-import Button from './Buttons';
+import { ThemeProvider, ThemeContext } from './components/ThemeProvider';
+import Button from './components/Buttons';
 
 const App = () => {
   const { backgroundColor } = useContext(ThemeContext);
